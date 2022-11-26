@@ -1,0 +1,51 @@
+.body{
+    margin-top:30px;
+    margin-left: 15px;
+    background-color: black;
+}
+
+.body > h1{
+    color:white;
+}
+
+.body > p{
+    color:white;
+    margin-left: 10px;
+}
+.white-line{
+    background-color:white;
+    height:1px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+#alert-text{
+    margin-left: 10px;
+    display: none;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+}
+
+#decrement{
+    width: 150px;
+    margin-right:10px;
+    border-radius: 0;
+}
+
+#increment{
+    width: 150px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 0;
+}
+
+#clear{
+    width: 150px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 0;
+    display: none;
+}
